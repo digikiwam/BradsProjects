@@ -17,9 +17,16 @@ namespace BradsFirstConsoleApp
             string myName = "Jack";
             string lastName = "Stewart";
             int myAge = 5;
-            int humanYears = 7 * myAge;
+
+            Console.BackgroundColor = ConsoleColor.Black;
+            Console.ForegroundColor = ConsoleColor.Yellow;
             Console.WriteLine($"Hi my name is {myName} {lastName} and i am {myAge} years old");
+            Console.BackgroundColor = ConsoleColor.Blue;
+            Console.ForegroundColor = ConsoleColor.White;
+
+            int humanYears = 7 * myAge;
             Console.WriteLine($"In human years i am {humanYears} years old");
+            Console.ResetColor();
             Console.ReadKey();
         }
     }
