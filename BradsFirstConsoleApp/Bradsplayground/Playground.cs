@@ -16,8 +16,9 @@ namespace Bradsplayground
             int myYear = 2015;
             string mySchool = "Greenbush";
             string myDad = "John";
-            
 
+            Console.BackgroundColor = ConsoleColor.White;
+            Console.ForegroundColor = ConsoleColor.DarkRed;
             Console.WriteLine($"Hi my name is {myName} {lastName} and i am {myAge} years old");
             Console.WriteLine($"I graduated from { mySchool} in {myYear}");
             Console.WriteLine($"My dads name is {myDad} {lastName}. He is teaching me how to code");
