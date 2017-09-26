@@ -8,6 +8,10 @@ namespace BradsFirstConsoleApp
 {
     class Program
     {
+        /// <summary>
+        /// My first console app
+        /// </summary>
+        /// <param name="args"></param>
         static void Main(string[] args)
         {
             string myName = "Jack";
