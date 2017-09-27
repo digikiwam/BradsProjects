@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BradsFirstConsoleApp", "Bra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bradsplayground", "Bradsplayground\Bradsplayground.csproj", "{97AE1F41-61BA-40D8-9395-82B2EFBD8587}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conditionals1", "Conditionals1\Conditionals1.csproj", "{1E4B303D-1EB6-4A72-B1F2-AB3705D03A93}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{97AE1F41-61BA-40D8-9395-82B2EFBD8587}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{97AE1F41-61BA-40D8-9395-82B2EFBD8587}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{97AE1F41-61BA-40D8-9395-82B2EFBD8587}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E4B303D-1EB6-4A72-B1F2-AB3705D03A93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E4B303D-1EB6-4A72-B1F2-AB3705D03A93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E4B303D-1EB6-4A72-B1F2-AB3705D03A93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E4B303D-1EB6-4A72-B1F2-AB3705D03A93}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{CCCA6E61-162C-4716-B840-682C40368E61}</ProjectGuid>
+    <ProjectGuid>{1E4B303D-1EB6-4A72-B1F2-AB3705D03A93}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>BradsFirstConsoleApp</RootNamespace>
-    <AssemblyName>BradsFirstConsoleApp</AssemblyName>
+    <RootNamespace>Conditionals1</RootNamespace>
+    <AssemblyName>Conditionals1</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,7 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FirstProgram.cs" />
+    <Compile Include="Conditionalclass.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

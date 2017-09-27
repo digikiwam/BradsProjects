@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BradsFirstConsoleApp
 {
-    class Program
+    class FirstProgram
     {
         /// <summary>
         /// My first console app
