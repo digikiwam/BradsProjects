@@ -14,6 +14,7 @@ namespace FuckinLoopy
         /// <param name="args"></param>
         static void Main(string[] args)
         {
+            #region for loop
             string cat = "Oswin";
             int age = 10;
 
@@ -30,13 +31,19 @@ namespace FuckinLoopy
                 }
 
             }
-            string[] myArray = {"oswin","jack","hel","delilah","sampson" };
+            #endregion
+
+            #region array and for each
+            string[] myArray = { "oswin", "jack", "hel", "delilah", "sampson" };
 
             foreach (var pet in myArray)
             {
                 Console.WriteLine($"These are the animals we know.{pet}");
 
             }
+            #endregion
+
+            #region Lists and while loop
 
             List<string> myList = new List<string>();
             myList.Add("milk");
@@ -47,7 +54,7 @@ namespace FuckinLoopy
             myList.Add("butter");
 
             int j = 0;
-            while(j < myList.Count)
+            while (j < myList.Count)
             {
                 Console.WriteLine(j + " " + myList[j]);
                 j++;
@@ -63,12 +70,11 @@ namespace FuckinLoopy
                 Console.WriteLine(i);
 
             }
-
-
-
+            #endregion
 
             Console.ReadLine();
 
         }
     }
+
 }
